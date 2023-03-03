@@ -1,8 +1,9 @@
 package com.javatests.util;
 
+import com.javatests.util.password.PasswordUtil;
 import org.junit.Test;
 
-import static com.javatests.util.PasswordUtil.SecurityLevel.*;
+import static com.javatests.util.password.PasswordUtil.SecurityLevel.*;
 import static org.junit.Assert.*;
 
 public class PasswordUtilTest {

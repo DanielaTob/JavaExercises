@@ -1,6 +1,6 @@
-package com.javatests.util;
+package com.javatests.util.password;
 
-import static com.javatests.util.PasswordUtil.SecurityLevel.*;
+import static com.javatests.util.password.PasswordUtil.SecurityLevel.*;
 
 public class PasswordUtil {
 

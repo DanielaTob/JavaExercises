@@ -1,4 +1,4 @@
-package FizzBuzzExercise;
+package fizzBuzzExercise;
 
 public class FizzBuzz {
 

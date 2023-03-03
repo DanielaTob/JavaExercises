@@ -1,4 +1,4 @@
-package TestingJavaCourse;
+package testingJavaCourse;
 
 
 import org.junit.Assert;
