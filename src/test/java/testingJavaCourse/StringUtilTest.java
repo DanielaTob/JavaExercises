@@ -4,6 +4,9 @@ package testingJavaCourse;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 public class StringUtilTest {
 
     @Test
@@ -43,6 +46,25 @@ public class StringUtilTest {
             throw new RuntimeException(actual + " is not equal to expected " + expected);
         }
     }*/
+
+    // Test class
+
+    @Test public void test_not_Empty_String() {
+        assertFalse(StringUtil.isEmpty("daniela"));
+    }
+
+    @Test public void test_Empty_String() {
+        assertTrue(StringUtil.isEmpty(""));
+    }
+
+    @Test public void test_Null_String() {
+        assertTrue(StringUtil.isEmpty(null));
+    }
+
+    @Test public void test_Spaces_String() {
+        assertTrue(StringUtil.isEmpty("    "));
+    }
+
 
 
 }
