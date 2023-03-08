@@ -9,3 +9,5 @@ INSERT INTO movies (name, minutes, genre) VALUES
      ('Dark Knight', 152, 'ACTION'),
      ('Memento', 113, 'THRILLER'),
      ('Matrix', 136, 'ACTION')
+
+
